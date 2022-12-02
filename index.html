@@ -5,26 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section>
         <nav>
-            <img src="./HTML Practise Assets/FES.svg" alt="">
+            <img src="./Assets/FES.svg" class="logo" alt="">
        <ul>
-        <li> <a href="#about"></a></li>
-      <li><a href="#discord"></a></li>
-    <li><a href="#contact"></a></li>
+        <li> <a href="#about">About</a></li>
+      <li><a href="#discord">Discord</a></li>
+    <li><a href="#contact">Contact</a></li>
     </ul>
         </nav>
         <header>
+            <div class="row">
             <div>
                 <h1>Best place to learn frontend</h1>
-<p>Go from being an absolute beginner to being a pro</p>
+<p class="subheader">Go from being an absolute beginner to being a pro</p>
       <button>Start now</button>     
 </div>
 <figure>
-    <img src="./HTML Practise Assets/laptop.png" alt="Home page image">
+    <img src="/Assets/laptop.png" alt="Home page image">
 </figure>
+</div>
         </header>
         
     </section>
@@ -32,43 +35,53 @@
 <section id="about">
 
     <h2>About</h2>
-    <div>
-        <p>
-            fersgsdgsdgd
+    <div class="row">
+    <div class="section_description">
+    <div class="section__description--wrapper">
+        <p class="section_description--para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsam suscipit tempore et quis harum blanditiis voluptatum explicabo, quibusdam ipsa aut voluptas inventore quae atque, aperiam vel minima magni earum?
+    
         </p>
-        <p>
+        <p class="section_description--para">
             fersgsdgsdgd
         </p>
     </div>
-    <figure>
-        <img src="./HTML Practise Assets/about.jpg" alt="">
+    <figure class="about__img--wrapper">
+        <img src="/Assets/about.jpg" alt="">
     </figure>
+</div>
+</div>
 </section>
 <section id="discord">
-    <h2>discord</h2>
-    <figure>
-        <img src="./HTML Practise Assets/discord.png" alt="">
+    <h2>Discord</h2>
+    <div class="row">
+    <div class="section_description">
+    <figure class="about__img--wrapper">
+        <img src="./Assets/discord.png" alt="">
     </figure>
-    <div>
-        <p>
-            errthfgjfugk
+    <div class="section__description--wrapper">
+        
+        <p class="section_description--para">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt enim fugit, assumenda quidem dolorem consectetur corporis nam recusandae deleniti ipsa adipisci aperiam voluptatem magni dignissimos reprehenderit doloremque! Porro, quibusdam delectus.
         </p>
-        <p>
-            rwehdfhtyjg
+        <p class="section_description--para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptate ipsa enim ea, explicabo dolore nulla accusamus voluptatem quis nobis nihil magni asperiores. Dolor vitae eos, cum accusantium id consequatur?
         </p>
     </div>
+    </div>
+</div>
 </section>
 <section id="contact">
-<h2>contact</h2>
+<h2>Contact</h2>
+<div class="row">
 <form action="">
     <span>Email</span>
-    <input type="text">
+    <input type="email" placeholder="alex@exemplu.com">
+
     <span>Message
     </span>
-    <textarea type="text">
-
-    </textarea>
-
+    <textarea type="text" placeholder="alex@exemplu.com"></textarea>
+<button>Contact Us</button>
 
 </form>
 
@@ -79,12 +92,12 @@
 
     </main>
     <footer>
-        <img src="./HTML Practise Assets/FES.svg" alt="">
- <div>
-    <a href="#about"></a>
-    <a href="#discord"></a>
-    <a href="#contact"></a>
-    <a href="">Courses</a>
+        <img class= "footer_logo" src="./Assets/FES.svg" alt="">
+ <div class="footer_links">
+    <a class="footer_link" href="#about">About</a>
+    <a class="footer_link" href="#discord">Discord</a>
+    <a class="footer_link" href="#contact">Contact</a>
+    <a class="footer_link" href="">Courses</a>
 
 
 
